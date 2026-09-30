@@ -22,7 +22,7 @@ chat_history = [
     SystemMessage(content='You are a helpful AI Assistant')
 ]
 
-# Chatbot Interface 
+# Chatbot Interface with appending chat History
 while True:
     user_input = input('You: ')
     chat_history.append(HumanMessage(content=user_input))
